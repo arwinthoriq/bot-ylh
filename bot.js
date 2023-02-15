@@ -7,6 +7,7 @@
  // @updateURL    https://raw.githubusercontent.com/arwinthoriq/bot-ylh/main/bot.js
  // @downloadURL  https://raw.githubusercontent.com/arwinthoriq/bot-ylh/main/bot.js
  // @match        *://*.youlikehits.com/stats.php*
+ // @match        *://*.youlikehits.com*
  // @match        *://*.youlikehits.com/history.php*
  // @match        *://*.youlikehits.com/soundcloudplays.php*
  // @match        *://*.youlikehits.com/websites.php*
