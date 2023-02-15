@@ -27,14 +27,28 @@
  		if (J("*:contains('503 Service Unavailable')").length) {
  			location.reload();
  		} else {
+      setTimeout(function() {
+ 						newWin.close();
+ 					}, 1000 * 32400);
+ 					setTimeout(function() {
+ 						location.href = 'https://www.youlikehits.com/bonuspoints.php';
+ 					}, 1000 * 32400);
  			switch (document.location.pathname) {
  				case "/bonuspoints.php":
+                    setTimeout(function() {
+                        location.href = 'https://www.youlikehits.com/logout.php';
+                    }, 10000);
  					if (J("body:contains('You have made ')").length && J("body:contains(' Hits out of ')").length) {
  						const reloadDelay = randomSeconds(60, 60 * 5);
  						attachNotification(".maintable", "Not enough points. Reloading the website in " + Math.round(reloadDelay / 1000 / 60) + " minutes to check again...");
  						setTimeout(() => location.reload(), reloadDelay);
  						clearInterval(mainLoop); //no further checks since we gotta reload anyway
  					} else if (J(".buybutton").length) J(".buybutton")[0].click()
+ 					break;
+     case "/":
+ 					setTimeout(function() {
+ 						location.href = 'https://www.youlikehits.com/login.php';
+ 					}, 1000);
  					break;
  				case "/stats.php":
  					setTimeout(function() {
