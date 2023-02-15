@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         blocks-situs
-// @namespace    https://github.com/arwinthoriq/blocks-situs
+// @namespace    https://github.com/arwinthoriq/blocks-situs.js
 // @version      1
 // @description  block situs
 // @author       arwinthoriq
