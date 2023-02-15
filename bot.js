@@ -13,6 +13,8 @@
  // @match        *://*.youlikehits.com/viewwebsite.php*
  // @match        *://*.youlikehits.com/youtubenew2.php*
  // @match        *://*.youlikehits.com/bonuspoints.php*
+ // @grant        GM.getValue
+ // @grant        GM.setValue
  // @require      https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
  // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
  // ==/UserScript==
