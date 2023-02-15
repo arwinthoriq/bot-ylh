@@ -4,8 +4,8 @@
  // @version      1
  // @description  anti break
  // @author       arwinthoriq
- // @updateURL    https://raw.githubusercontent.com/arwinthoriq/bot-ylh/master/bot.js
- // @downloadURL  https://raw.githubusercontent.com/arwinthoriq/bot-ylh/master/bot.js
+ // @updateURL    https://raw.githubusercontent.com/arwinthoriq/bot-ylh/main/bot.js
+ // @downloadURL  https://raw.githubusercontent.com/arwinthoriq/bot-ylh/main/bot.js
  // @match        *://*.youlikehits.com/stats.php*
  // @match        *://*.youlikehits.com/history.php*
  // @match        *://*.youlikehits.com/soundcloudplays.php*
